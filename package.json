@@ -1,0 +1,21 @@
+{
+  "name": "pgpromise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "pg-promise": "^10.5.2",
+    "prompt-promise": "^1.0.3",
+    "sequelize": "^5.21.7"
+  }
+}
